@@ -4,4 +4,8 @@
   "description": "",
   "main": "server.js",
   "license": "MIT"
+  "scripts": {
+    "build": "npm run build:azure",  
+    "build:azure": "next build"     
+  }
 }
